@@ -1,8 +1,6 @@
 package main
-
 import "fmt"
 
-main() {
-
-	fmt.printl("Hellow world")
+func main() {
+	fmt.Print("Hellow world")
 }
