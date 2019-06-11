@@ -11,7 +11,7 @@ func main(){
 	
 	input:=bufio.NewScanner(os.Stdin)
 		for input.Scan() {
-       counts[input.Text]++
+	   counts[input.Text()]++
 	}
 	
 	for line, n:=range counts{
